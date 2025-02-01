@@ -1,0 +1,5 @@
+target/
+wallet.address
+wallet.private
+wallet.public
+wallet.seed
