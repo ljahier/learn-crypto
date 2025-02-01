@@ -71,19 +71,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8c3c1a368f70d6cf7302d78f8f7093da241fb8e8807c05cc9e51a125895a6d5b"
 
 [[package]]
-name = "basic-btc-wallet"
-version = "0.1.0"
-dependencies = [
- "base58",
- "clap",
- "hex",
- "k256",
- "ripemd",
- "sha2",
- "tiny-bip39",
-]
-
-[[package]]
 name = "block-buffer"
 version = "0.10.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -610,6 +597,19 @@ name = "version_check"
 version = "0.9.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0b928f33d975fc6ad9f86c8f283853ad26bdd5b10b7f1542aa2fa15e2289105a"
+
+[[package]]
+name = "wallet"
+version = "0.1.0"
+dependencies = [
+ "base58",
+ "clap",
+ "hex",
+ "k256",
+ "ripemd",
+ "sha2",
+ "tiny-bip39",
+]
 
 [[package]]
 name = "wasi"
